@@ -6,3 +6,7 @@ spec:
   serviceAccountName: tekton-triggers-example-sa
   triggers:
     - triggerRef: trigger
+  resources:
+    kubernetesResource:
+      serviceType: LoadBalancer
+      # serviceLoadBalancerClass: traefik

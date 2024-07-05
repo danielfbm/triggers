@@ -5,4 +5,4 @@ metadata:
 spec:
   params:
   - name: message
-    value: Hello from the Triggers EventListener!
+    value: Hello from the Triggers EventListener! $(extensions.message)
